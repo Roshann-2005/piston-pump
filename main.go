@@ -20,5 +20,5 @@ func calc_flow_rate(bore float64, stroke float64, r_1 float64, r_2 float64, rpm 
 func main() {
 	r := calc_flow_rate(41.0, 38.0, 340.0, 50.0, 1_400.0)
 
-	fmt.Println("flow rate in litres per hour is", r)
+	fmt.Printf("flow rate in litres per hour is %.1f litres per hour", r)
 }
